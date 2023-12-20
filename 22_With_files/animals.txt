@@ -1,0 +1,4 @@
+The dog lives in France
+The cat lives in Finland
+The horse lived in Spain
+Whales live in the ocean
