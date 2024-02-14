@@ -88,3 +88,9 @@ sl.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
 
 sl.video("https://www.youtube.com/watch?v=4WMrFkGBguA&list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW&index=6",
         start_time=0)
+
+sl.multiselect("Select a model",
+                options=["GPT-4", "GPT-4 Turbo", "GPT-3.5", "GPT-3.5 Turbo", "CohereNow", "BedrockAWS", "AnthropicSimple"],
+                default=["GPT-4", "GPT-4 Turbo", "GPT-3.5", "GPT-3.5 Turbo"],
+                key="multiselect",
+                help="Select one or more models")
